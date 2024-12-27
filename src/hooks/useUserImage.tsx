@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { User } from '../lib/types';
+
 const userPlaceholder = '/images/user-avatar.svg';
 export const useUserImage = (
   setIsMobileNavOpen: (state: boolean) => void,

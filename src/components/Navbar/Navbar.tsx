@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { Container } from '../Container/Container';
 import { Link } from 'react-router-dom';
-
 import { MobileNav } from './MobileNav/MobileNav';
-import { SearchInput } from './SearchInput/SearchInput';
 import { UserAuth } from './UserAuth/UserAuth';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { RootState } from '../../features/store';
 import { UserInput } from './UserInput/UserInput';
 import { Cart } from './Cart/Cart';

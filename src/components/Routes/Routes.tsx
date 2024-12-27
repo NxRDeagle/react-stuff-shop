@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Home } from '../Home/Home';
-import { Navbar } from '../Navbar/Navbar';
 import { Product } from '../Product/Product';
 import { Shop } from '../Shop/Shop';
-import { Toaster } from 'react-hot-toast';
 import { Favorites } from '../Favorites/Favorites';
-import { Categories } from '../Categories/Categories';
 import { UserProfile } from '../UserProfile/UserProfile';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../features/store';

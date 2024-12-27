@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { CartItem, Product, ProductWithQuantity } from '../lib/types';
+import { CartItem, ProductWithQuantity } from '../lib/types';
 import { RootState } from '../features/store';
 import { removeFromCart } from '../features/user/userSlice';
 import { getProductById } from '../utils/common';

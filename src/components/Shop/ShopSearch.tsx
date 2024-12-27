@@ -1,9 +1,7 @@
 import React from 'react';
 import { SearchInput } from '../Navbar/SearchInput/SearchInput';
-import { Product, SearchUI } from '../../lib/types';
-import { useSearchState } from '../../hooks/useSearchState';
+import { SearchUI } from '../../lib/types';
 import { useSearch } from '../../hooks/useSearch';
-import { useSearchUI } from '../../hooks/useSearchUI';
 
 interface ShopSearchProps {
   localTitle: string;

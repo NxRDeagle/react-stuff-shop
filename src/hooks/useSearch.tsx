@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import { useSearchUI } from './useSearchUI';
 import { useDebouncedValue } from './useDebouncedValue';
 import { useSearchState } from './useSearchState';
 import { useProductSearch } from './useProductSearch';

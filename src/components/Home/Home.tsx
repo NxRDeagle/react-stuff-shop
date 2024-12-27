@@ -1,10 +1,8 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Categories } from '../Categories/Categories';
 import { Hero } from '../Hero/Hero';
-import { Container } from '../Container/Container';
 import { Showcase } from '../Showcase/Showcase';
 import { SaleAdd } from '../SaleAdd/SaleAdd';
-import { Footer } from '../Footer/Footer';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../features/store';
 import { filterByPrice } from '../../features/products/productsSlice';

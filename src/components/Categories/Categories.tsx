@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { categories } from '../../utils/categories';
 import { Category } from './Category';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../features/store';

@@ -2,8 +2,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { API_URL } from '../../utils/constants';
-import { Cart, CartItem, Category, ErrorResponse, User } from '../../lib/types';
-
+import { Cart, CartItem, ErrorResponse, User } from '../../lib/types';
 import { loadCartFromLocalStorage, loadUserFromLocalStorage } from '../../utils/common';
 import { UserLoginFormValues } from '../../hooks/useLoginForm';
 import { UserSignUpFormValues } from '../../hooks/useSignUpForm';

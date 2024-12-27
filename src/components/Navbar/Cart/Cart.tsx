@@ -1,6 +1,5 @@
 import React from 'react';
 import { Drawer } from '../Drawer/Drawer';
-import { ProductWithQuantity } from '../../../lib/types';
 import { useCartItems } from '../../../hooks/useCartItems';
 import { useCartTotalPrice } from '../../../hooks/useCartTotalPrice';
 import { useCartContent } from '../../../hooks/useCartContent';

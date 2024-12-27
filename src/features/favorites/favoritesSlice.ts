@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { API_URL } from '../../utils/constants';
-import { Product, ProductWithQuantity } from '../../lib/types';
+import { Product } from '../../lib/types';
 import { loadFavoritesFromLocalStorage } from '../../utils/common';
 
 interface FavoritesSlice {

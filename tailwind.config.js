@@ -25,7 +25,6 @@ module.exports = {
         lighterGray: '#576067',
         categoriesPink: '#8B57C6',
       },
-
       textColor: {
         lightGray: '#B8B8B8',
         lighterGray: '#576067',

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ShowcaseCard } from './ShowcaseCard';
 import { Button } from '../Button/Button';
-import { Category, Product, ShowcaseTypesArray } from '../../lib/types';
+import { ShowcaseTypesArray } from '../../lib/types';
 import { useWindowSize } from '../../hooks/useWindowSize';
 
 interface ShowcaseProps {

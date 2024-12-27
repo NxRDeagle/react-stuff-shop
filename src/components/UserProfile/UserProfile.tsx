@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '../Button/Button';
 import { Input } from '../Input/Input';
 import { useParams } from 'react-router-dom';

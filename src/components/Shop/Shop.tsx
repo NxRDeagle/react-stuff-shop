@@ -1,6 +1,5 @@
 import { Categories } from '../Categories/Categories';
 import { Hero } from '../Hero/Hero';
-import { Product } from '../../lib/types';
 import { Showcase } from '../Showcase/Showcase';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../features/store';

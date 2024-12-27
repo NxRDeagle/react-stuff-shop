@@ -2,9 +2,7 @@ import React from 'react';
 import { Drawer } from '../Drawer/Drawer';
 import { UserSignUpForm } from '../UserSignUpForm/UserSignUpForm';
 import { UserLoginForm } from '../UserLoginForm/UserLoginForm';
-
 import { UserAuthSteps } from '../../../utils/enums';
-import { useDrawer } from '../../../hooks/useDrawer';
 import { useAuth } from '../../../hooks/useAuth';
 
 interface UserAuthProps {

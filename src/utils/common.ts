@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { Cart, CartItem, Category, Product, ShowcaseTypes, UrlParams, User } from '../lib/types';
 import { API_URL } from './constants';
-import toast from 'react-hot-toast';
 
 export const shuffle = <T>(arr: T[]): T[] => [...arr].sort(() => 0.5 - Math.random());
 const getScrollbarWidth = () => {

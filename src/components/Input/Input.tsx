@@ -1,4 +1,3 @@
-import React from 'react';
 import { FieldPath, FieldValues, Control, useWatch, UseFormRegister } from 'react-hook-form';
 
 interface InputProps<T extends FieldValues> {

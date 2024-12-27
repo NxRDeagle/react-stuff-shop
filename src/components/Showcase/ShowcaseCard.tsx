@@ -1,5 +1,5 @@
 import React from 'react';
-import { Category, Product, ShowcaseTypes } from '../../lib/types';
+import { ShowcaseTypes } from '../../lib/types';
 import { ShowcaseProduct } from './ShowcaseProduct';
 import { ShowcaseCategory } from './ShowcaseCategory';
 import { isProduct } from '../../utils/common';
